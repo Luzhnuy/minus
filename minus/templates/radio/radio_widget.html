@@ -1,0 +1,13 @@
+
+<script type="text/javascript" src="{{MEDIA_URL}}js/js_audio_player/player_radio.js" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+    var RadioUrl = "{{RADIO_URL}}";
+</script>
+<object width="1" height="1" data="{{MEDIA_URL}}js/js_audio_player/player_mp3_js.swf" type="application/x-shockwave-flash" id="playerFlash">
+    <param value="{{MEDIA_URL}}js/js_audio_player/player_mp3_js.swf" name="movie">
+    <param value="always" name="AllowScriptAccess">
+    <param value="listener=minusListener&;interval=500&;byteslimit=52428800" name="FlashVars">
+</object>
+    
+<a id="playbtn" class="stopped" href="#"></a>
+<div id="volslider"></div>

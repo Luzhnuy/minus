@@ -1,0 +1,27 @@
+syntax: glob
+*.pyc
+*.pyo
+*.orig
+*~
+*.db
+.svn
+.git
+settings_local.py
+tmp
+pip-log.txt
+build
+src
+thirdparty
+.directory
+static/avatars/*/*
+static/files/*
+static/testfiles/*_th.png
+static/testfiles/tmp*
+static/uploads
+static/photos
+static/pluses
+static/old
+static/radio
+search/*MAIN*
+sape/links.db
+.noseids
